@@ -1,4 +1,5 @@
 # Biblioteca 
+Em desenvolvimento
 ## Tecnologias Utilizadas
 - MySQL
 - Node.js
@@ -14,14 +15,6 @@ O objetivo principal deste projeto é impulsionar e aprimorar meu conhecimento e
 - **Express**: Um framework Node.js utilizado para criar APIs RESTful e simplificar o desenvolvimento do servidor.
 
 Este projeto serve como uma oportunidade de aprendizado e prática, permitindo-me consolidar minhas habilidades em desenvolvimento web, criar um aplicativo funcional e demonstrar meu conhecimento em tecnologias essenciais.
-
-## Funcionalidades
-O projeto oferece as seguintes funcionalidades:
-
-- **Create (C)**: Adicionar novos livros à biblioteca.
-- **Read (R)**: Visualizar informações sobre os livros na biblioteca.
-- **Update (U)**: Atualizar informações dos livros existentes.
-- **Delete (D)**: Excluir livros da biblioteca.
 
 ## Como Usar
 1. Clone o repositório para sua máquina local.
