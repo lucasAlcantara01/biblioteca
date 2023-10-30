@@ -10,7 +10,24 @@ const addBook = async (req, res) => {
     return res.status(201).json(addBook)
 };
 
+
+const deleteBook = async (req, res) => {
+    const { id } = req.params;
+
+    await booksModels.deleteBook(id);
+    return res.status(204).json();
+}
+
+const updateBook = async (req, res) => {
+    const { id } = req.params;
+
+    await booksModels.updateBook(id, req.body);
+    return res.status(204).json();
+}
+
 module.exports = {
     getAllBooks,
     addBook,
+    deleteBook,
+    updateBook
 }
