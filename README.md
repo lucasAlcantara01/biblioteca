@@ -9,7 +9,7 @@ Em desenvolvimento, procurando melhorar e atualizar este projeto de acordo com m
 - CSS
 
 ## Objetivo do Projeto
-O objetivo principal deste projeto é impulsionar e aprimorar meu conhecimento em desenvolvimento web, explorando as tecnologias mais relevantes no campo. Este projeto se concentra em criar um aplicativo de gerenciamento de biblioteca que permite adicionar, visualizar, atualizar e excluir livros e mebros em um banco de dados, como tamb. As tecnologias usadas incluem:
+O objetivo principal deste projeto é impulsionar e aprimorar meu conhecimento em desenvolvimento web, explorando as tecnologias mais relevantes no campo. Este projeto se concentra em criar um aplicativo de gerenciamento de biblioteca que permite adicionar, visualizar, atualizar e excluir livros e mebros em um banco de dados, como tambem gerenciar emprestimos dos livros. As tecnologias usadas incluem:
 
 - **MySQL**: Usado para armazenar e gerenciar os dados da biblioteca.
 - **Node.js**: Utilizado como o ambiente de tempo de execução para criar o servidor e a lógica de back-end.
