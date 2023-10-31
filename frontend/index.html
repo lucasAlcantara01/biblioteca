@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Biblioteca</title>
+</head>
+<body>
+    <main>
+        <form class="add-book">
+            <input type="text" class="input-title" placeholder="Título">
+            <input type="text" class="input-autor" placeholder="Autor">
+            <input type="text" class="input-isbn" placeholder="ISBN">
+            <input type="text" class="input-ano" placeholder="Ano de publicação">
+            <input type="text" class="input-genero" placeholder="Gênero">
+            <button type="submit">+</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Autor</th>
+                    <th>ISBN</th>
+                    <th>Ano de publicação</th>
+                    <th>Gênero</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>The Great Gatsby</td>
+                    <td>F. Scott Fitzgerald</td>
+                    <td>978-0743273565</td>
+                    <td>1925</td>
+                    <td>Romance</td>
+                    <td>
+                        <button class="btn-action">
+                            <span class="material-symbols-outlined">edit</span>
+                        </button>
+                        <button class="btn-action">
+                            <span class="material-symbols-outlined"> delete</span>
+                        </button>
+                    </td>
+                </tr> 
+            </tbody>
+        </table>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>

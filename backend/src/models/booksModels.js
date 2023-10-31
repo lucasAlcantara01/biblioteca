@@ -8,11 +8,11 @@ const getAllBooks = async () => {
 };
 
 const addBook = async (book) => {
-    const {titulo, autor, isbn, ano_de_publicacao, genero, exemplares_disponiveis} = book
+    const {titulo, autor, isbn, ano_de_publicacao, genero} = book
 
-    const query = 'INSERT INTO livros(titulo, autor, isbn, ano_de_publicacao, genero, exemplares_disponiveis) VALUES (?, ?, ?, ?, ?, ?)'
+    const query = 'INSERT INTO livros(titulo, autor, isbn, ano_de_publicacao, genero) VALUES (?, ?, ?, ?, ?)'
     
-    const [addBook] = await connection.execute(query, [titulo, autor, isbn, ano_de_publicacao, genero, exemplares_disponiveis])
+    const [addBook] = await connection.execute(query, [titulo, autor, isbn, ano_de_publicacao, genero])
     
     return {insertId: addBook.insertId}; // retorna apenas o id
 };
